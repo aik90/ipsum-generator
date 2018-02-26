@@ -6,8 +6,8 @@ exports.handler = function (event, context, callback) {
 		statusCode: 200,
 		body: ipsum({
 			words: dictionary,
-		})
+		}),
 	};
 
-	callback(null, response);
+	callback(null, response.body);
 }
