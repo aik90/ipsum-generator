@@ -4,6 +4,7 @@ module.exports = [
 'pay-per-execution',
 'sigma',
 'ide',
+'deploy',
 'serverdeath',
 'slappforge',
 'function',
